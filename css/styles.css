@@ -485,7 +485,7 @@ body {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
+  padding: 72px 24px 24px 24px;
 }
 .modal {
   transform: translate(-50%, -50%);
@@ -522,33 +522,28 @@ body {
   background-color: #404bbf;
   border: none;
 }
-.modal-button-icon{
-fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+.modal-button-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-button-icon:hover{
-transition: fill #ffffff;
+.modal-button:hover .modal-button-icon,
+.modal-button:focus .modal-button-icon {
+  fill: #ffffff;
 }
-.modal-button-icon:focus {
-  transition: fill #ffffff;
- }
- .modal-text{
+.modal-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-color: #2E2F42;
-margin-bottom: 16px;
-
- }
- .form-text{
-Weight:400px;
-line-height: 1.5;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+.form-text {
+  weight: 400px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F4266;
- }
- .list-given{
+  color: #2e2f4266;
+}
+.list-given {
   margin-bottom: 8px;
- }
- 
+}
