@@ -486,8 +486,21 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="form" name="firstName">
           <div class="list-given">
-            <label class="form-text"
-              >Name<input type="text" name="firstName" />
+            <label class="form-text" for="user-name">
+              Name
+              <div class="form-input-field">
+                <input
+                  class="input-field"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                />
+                <svg class="field-icon" width="8" height="8">
+                  <use
+                    href="./images/symbolmodal.svg#icon icon-personblack"
+                  ></use>
+                </svg>
+              </div>
             </label>
             <label class="form-text"
               >Phone<input type="tel" name="firstName" />
