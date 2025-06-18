@@ -563,6 +563,16 @@ body {
 .input-field:focus {
   border-color: #4d5ae5;
 }
+.field-icon {
+  position: absolute;
+  left: 16px;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  top: 50%;
+}
+.input-field:focus .field-icon {
+  fill: #4d5ae5;
+}
 .list-given {
   margin-bottom: 8px;
 }
