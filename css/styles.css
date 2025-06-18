@@ -497,6 +497,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
 }
 .modal-button {
   position: absolute;
@@ -515,7 +516,7 @@ body {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
 }
-.modal-button::hover,
+.modal-button:hover,
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
