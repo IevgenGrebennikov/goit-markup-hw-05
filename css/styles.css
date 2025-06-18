@@ -539,10 +539,29 @@ body {
   margin-bottom: 16px;
 }
 .form-text {
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f4266;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+
+  display: block;
+}
+.form-input-field {
+  position: relative;
+}
+.input-field {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  width: 100%;
+}
+.input-field:focus {
+  border-color: #4d5ae5;
 }
 .list-given {
   margin-bottom: 8px;
