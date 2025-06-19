@@ -561,7 +561,7 @@ body {
   width: 100%;
 }
 .input-field:focus {
-  border-color: #4d5ae5;
+  border-color: rgb(229, 77, 102);
   fill: #4d5ae5;
 }
 .field-icon {
