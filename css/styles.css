@@ -561,8 +561,7 @@ body {
   width: 100%;
 }
 .input-field:focus {
-  border-color: rgb(229, 77, 102);
-  fill: #4d5ae5;
+  border-color: #4d5ae5;
 }
 .field-icon {
   position: absolute;
@@ -571,7 +570,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   top: 50%;
 }
-.input-field:focus .field-icon {
+.input-field input:focus + .field-icon {
   fill: #4d5ae5;
 }
 .list-given {
