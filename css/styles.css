@@ -647,3 +647,11 @@ body {
 .list-coment {
   margin-bottom: 16px;
 }
+.chekbox-police {
+  color: #4d5ae5;
+}
+.visually-hidden:checked + .chekbox-text .chekbox-icon-contener {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
