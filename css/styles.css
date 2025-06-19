@@ -570,7 +570,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   top: 50%;
 }
-.input-field input:focus + .field-icon {
+.form-input-field:focus-within .field-icon {
   fill: #4d5ae5;
 }
 .list-given {
