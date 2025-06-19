@@ -665,24 +665,22 @@ body {
 }
 .footer-field-button {
   display: flex;
-  gap 24px;
-
+  gap: 24px;
 }
-.field-email{
+.field-email {
   border: 1px solid #ffffff;
-  border-radius:4px;
+  border-radius: 4px;
   height: 40px;
-  width: 264px; 
+  width: 264px;
   background-color: transparent;
-font-size: 12px; 
-line-height: 2;
-letter-spacing: 0.04em;
-padding-left: 16px;
- box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
- color: #ffffff;
-
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
 }
-.footer-subscribe-button{
+.footer-subscribe-button {
   min-width: 165px;
   display: flex;
   justify-content: center;
@@ -691,14 +689,14 @@ padding-left: 16px;
   font-size: 16px;
   font-weight: 500px;
   line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
-cursor: pointer;
-background-color: #4D5AE5;
- border: none;
- border-radius: 4px; 
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
   height: 40px;
 }
-.footer-subscribe-icon{
+.footer-subscribe-icon {
   margin-left: 16px;
 }
