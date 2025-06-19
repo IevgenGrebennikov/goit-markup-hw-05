@@ -562,6 +562,7 @@ body {
 }
 .input-field:focus {
   border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 .field-icon {
   position: absolute;
