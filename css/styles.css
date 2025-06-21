@@ -433,6 +433,10 @@ color: #2E2F42;
   color: #f4f4fd;
   max-width: 264px;
 }
+.field-email::placeholder {
+  color: #ffffff;
+ 
+}
 .container-footer {
   display: flex;
   align-items: baseline;
